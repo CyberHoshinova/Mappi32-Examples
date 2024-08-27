@@ -13,8 +13,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "hoshinova";
 char pass[] = "Ichizora";
 
-int sensor_pin = 12; // Sensor Pin
-int relay_pin = 13;   // Relay Pin
+int sensor_pin = D12; // Sensor Pin
+int relay_pin = D13;   // Relay Pin
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Set the LCD address to 0x27 for a 16 chars and 2 line display
 BlynkTimer timer;
